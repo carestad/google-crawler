@@ -1,10 +1,10 @@
 {
-    "name": "cviniciussdias/google-crawler",
+    "name": "carestad/google-crawler",
     "description": "A simple Crawler for getting Google results",
     "keywords": ["google", "crawler", "search"],
     "type": "library",
     "require": {
-        "php": ">=7.2",
+        "php": ">=8.2",
         "guzzlehttp/guzzle": "^6.3",
         "symfony/dom-crawler": "^4.2",
         "php-ds/php-ds": "^1.3",
@@ -29,11 +29,5 @@
             "CViniciusSDias\\GoogleCrawler\\Tests\\": "tests/"
         }
     },
-    "license": "GPL-3.0",
-    "authors": [
-        {
-            "name": "CViniciusSDias",
-            "email": "carlosv775@gmail.com"
-        }
-    ]
+    "license": "GPL-3.0"
 }
